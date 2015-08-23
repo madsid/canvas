@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F565B401B890C900040B538 /* AlbumsAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F565B3F1B890C900040B538 /* AlbumsAddViewController.swift */; };
+		8F565B421B894B210040B538 /* AlbumsSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F565B411B894B210040B538 /* AlbumsSingleViewController.swift */; };
+		8F565B441B89901E0040B538 /* StoreRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F565B431B89901E0040B538 /* StoreRootViewController.swift */; };
 		8F7978E51B86CB3C00C76EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7978E41B86CB3C00C76EF3 /* AppDelegate.swift */; };
 		8F7978E71B86CB3C00C76EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7978E61B86CB3C00C76EF3 /* ViewController.swift */; };
 		8F7978EA1B86CB3C00C76EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7978E81B86CB3C00C76EF3 /* Main.storyboard */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F565B3F1B890C900040B538 /* AlbumsAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsAddViewController.swift; sourceTree = "<group>"; };
+		8F565B411B894B210040B538 /* AlbumsSingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsSingleViewController.swift; sourceTree = "<group>"; };
+		8F565B431B89901E0040B538 /* StoreRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreRootViewController.swift; sourceTree = "<group>"; };
 		8F7978DF1B86CB3C00C76EF3 /* canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7978E31B86CB3C00C76EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F7978E41B86CB3C00C76EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,8 +90,11 @@
 				8F7978E41B86CB3C00C76EF3 /* AppDelegate.swift */,
 				8F7978E61B86CB3C00C76EF3 /* ViewController.swift */,
 				8F7978E81B86CB3C00C76EF3 /* Main.storyboard */,
+				8F565B431B89901E0040B538 /* StoreRootViewController.swift */,
+				8F565B411B894B210040B538 /* AlbumsSingleViewController.swift */,
 				8F7979061B86E6B100C76EF3 /* AlbumsCollectionViewCell.swift */,
 				8F7979041B86D7E200C76EF3 /* AlbumsCollectionViewController.swift */,
+				8F565B3F1B890C900040B538 /* AlbumsAddViewController.swift */,
 				8F7978EB1B86CB3C00C76EF3 /* Images.xcassets */,
 				8F7978ED1B86CB3C00C76EF3 /* LaunchScreen.xib */,
 				8F7978E21B86CB3C00C76EF3 /* Supporting Files */,
@@ -221,7 +230,10 @@
 			files = (
 				8F7979071B86E6B100C76EF3 /* AlbumsCollectionViewCell.swift in Sources */,
 				8F7978E71B86CB3C00C76EF3 /* ViewController.swift in Sources */,
+				8F565B441B89901E0040B538 /* StoreRootViewController.swift in Sources */,
+				8F565B401B890C900040B538 /* AlbumsAddViewController.swift in Sources */,
 				8F7978E51B86CB3C00C76EF3 /* AppDelegate.swift in Sources */,
+				8F565B421B894B210040B538 /* AlbumsSingleViewController.swift in Sources */,
 				8F7979051B86D7E200C76EF3 /* AlbumsCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +438,7 @@
 				8F7979001B86CB3C00C76EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F7979011B86CB3C00C76EF3 /* Build configuration list for PBXNativeTarget "canvasTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +447,7 @@
 				8F7979031B86CB3C00C76EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
