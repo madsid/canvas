@@ -1,29 +1,25 @@
 //
-//  AlbumsSingleViewController.swift
+//  StoreDetailViewController.swift
 //  canvas
 //
-//  Created by sidhartha madipalli on 8/22/15.
+//  Created by sidhartha madipalli on 8/23/15.
 //  Copyright (c) 2015 Canvas Electronic. All rights reserved.
 //
 
 import UIKit
 
-class AlbumsSingleViewController: UIViewController {
-    
+
+class StoreDetailViewController: UIViewController {
+
     var toPass:Int!
-    
-    @IBOutlet weak var albumImage: UIImageView!
+    @IBOutlet weak var storeImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        albumImage.image = UIImage(named: "\(toPass + 1)")
-        self.title = "Album \(toPass)"
-    }
-    
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        self.tabBarController!.tabBar.hidden = true;
+        storeImage.image = UIImage(named:"\(toPass + 1)")
+        self.title = "Item \(toPass)"
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
